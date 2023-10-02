@@ -13,12 +13,11 @@
     </head>
     <body>
         <h1>Datos del cliente</h1>
-        <form action="action" method="POST">
-            <p><label>Id: </label><input type="text" id="Id" name="id"></p>
-            <p><label>Nombre: </label><input type="text" id="Id" name="nombre"></p>
-            <p><label>Apellido: </label><input type="text" id="Id" name="apellido"></p>
-            <p><label>Telefono: </label><input type="text" id="Id" name="telefono"></p>
-            <p><label>Correo: </label><input type="text" id="Id" name="correo"></p>           
+        <form action="ServletInsertar" method="POST">
+            <p><label>Nombre: </label><input type="text" id="nombre" name="nombre"></p>
+            <p><label>Apellido: </label><input type="text" id="apellido" name="apellido"></p>
+            <p><label>Telefono: </label><input type="text" id="telefono" name="telefono"></p>
+            <p><label>Correo: </label><input type="text" id="correo" name="correo"></p>           
             <button type="submit">enviar</button>
         </form>
     </body>
