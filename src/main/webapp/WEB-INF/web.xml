@@ -4,9 +4,17 @@
         <servlet-name>ServletSearchCliente</servlet-name>
         <servlet-class>Controller.ServletSearchCliente</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletInsertar</servlet-name>
+        <servlet-class>controller.ServletInsertar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletSearchCliente</servlet-name>
         <url-pattern>/ServletSearchCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletInsertar</servlet-name>
+        <url-pattern>/ServletInsertar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
